@@ -63,6 +63,8 @@ For more look in snapshots.<br />
 ![alt text](./images/8.png)
 ![alt text](./images/9.png)
 ![alt text](./images/10.png)
+<br/>
+### Admin Panel
 ![alt text](./images/11.png)
 ![alt text](./images/12.png)
 ![alt text](./images/13.png)
