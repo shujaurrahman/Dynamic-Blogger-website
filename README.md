@@ -95,7 +95,7 @@ Website Developed by<br />
  📫Reach me: **shujaurrehman210@gmail.com**<br />
  👨‍💻check out my portfolio at:[shuja-on-web](https://shujaurrahman.github.io/shuja-on-web/)<br />
  
- -Mohd Faheem Ahmad<br />
+ - Mohd Faheem Ahmad<br />
   📫Reach me:**mohdfaheemahmad5@gmail.com**<br />
 
 
