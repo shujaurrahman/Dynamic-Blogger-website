@@ -1,0 +1,255 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#3D2C8D;
+  --color2:#FEF1E6;    
+  --color3: linear-gradient(to right bottom, rgba(61,44,141,100),rgba(61,44,141,0.5));
+  --color4:#E4E9F7;
+}
+
+/*---------Blog card-------*/
+.card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px .8rem 1rem rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin: 12px 15px 15px 25px;
+  width: 95%;
+  
+
+}
+.image-data{
+  height: 25rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+}
+.background-image{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../../static/images/1.jpg") center no-repeat;
+  background-size: cover;
+  z-index:-1;
+  transition: transform 5s;  
+}
+.card:hover .background-image
+{
+ transform: scale(1.5);
+}
+
+/*---------Publisher details-database oriented-------*/
+.publication-details
+{
+ width: 100%;
+ height: 100%;
+ background: var(--color3);
+ font-size: 1.4rem;
+ font-weight: bold;
+ color: #fff;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 1rem;
+
+}
+.publication-details i{
+ margin-right:  1rem;
+
+}
+.author{
+ display: inline-block;
+ margin-bottom: .5rem;
+ transition: all .5s ;
+}
+.author:hover{
+ color: rgba(255, 255, 255, .75);
+}
+.date{
+ display: block;
+}
+.post-data{
+ background-color: #fff;
+ padding: 2rem 3rem;
+ position: relative;
+}
+
+/*--------Main card data--------*/
+.title{
+ background-color: #333;
+ -webkit-background-clip:text;
+ color: transparent;
+ position: relative;
+ font-size: 3rem;
+ line-height: 1;
+}
+.title:hover::before{
+ transform: scaleX(1);
+}
+.title::before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -.5rem;
+ width: 33rem;
+ height: 2px;
+ background:#a2a2a2;
+ transform: scaleX(0);
+ transform-origin: left;
+ transition: transform .5s;
+}
+
+.subtitle{
+ font-size: 1.2rem;
+ text-transform: uppercase;
+ color: #a2a2a2;
+ margin: 1rem 0 1.5rem 0;
+ font-weight: 500;
+ padding: 2px 0 0 0;
+
+}
+
+
+/*--------Blog data--------*/
+.discription{
+ position: relative;
+
+}
+.description::first-letter{
+ margin-left: 3rem;
+}
+
+/* 
+why is this needed?
+.description::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: .5rem;
+ height: 2.5rem;
+ background: var(--color3);
+ border-radius: 2rem;
+}
+*/
+
+/*-------Read more action---------*/
+.more-text{
+ display: none;
+
+}
+.read-more-btn{
+ padding: 6px 10px;
+ background-color:var(--color4);
+ margin-right: 12px;
+ border-radius: 13px;
+ color:var(--color1);
+ border: none;
+ outline: none;
+ font-size: 15px;
+ font-weight: 430;
+ cursor: pointer;
+}
+
+.show-more .more-text{
+ display: inline;
+}
+
+.show-more .dots{
+ display: none;
+}
+
+.cta{
+ text-align: right;
+ font-weight: bold;
+ margin-top: 1rem;
+
+}
+.cta a{
+ background: var(--color3);
+ -webkit-background-clip:text;
+ color: transparent;
+ position: relative;
+}
+
+.cta a::before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -.5rem;
+ width: 100%;
+ height: 3px;
+ background: var(--color3);
+ transform: scaleX(0);
+ transform-origin: left;
+ transition: transform .5s;
+
+}
+.cta a:hover::before{
+ transform: scaleX(1);
+}
+
+/*------------Media querry-------*/
+@media screen and (min-width:600px){
+ .card{
+   flex-direction: row;
+   max-width: 110rem;
+   /* min-width: 110rem; */
+ }
+ .image-data{
+   flex-basis: 40%;
+   height: unset;
+
+ }
+ .publication-details{
+   transform: translateX(-100%);
+   transition: transform.5s;
+ }
+ .card:hover .publication-details{
+   transform: translateX(0);
+ }
+ .author{
+   transform: translateY(-3rem);
+   opacity: 0;
+   transition-delay: .3s;
+ }
+ .date{
+   transform: translateY(3rem);
+   opacity: 0;
+   transition: all .5s .3s;
+ }
+ .card:hover .author,
+ .card:hover .date{
+   transform: translateY(0);
+   opacity: 1;
+ }
+
+ .post-data{
+   flex-basis: 60%;
+ }
+ .post-data::before{
+   /* content: ''; */
+   content: var(--con,'');
+   width: 3.5rem;
+   height: 100%;
+   background-color: #fff;
+   position: absolute;
+   top: 0;
+   left: -1.5rem;
+   z-index: 10;
+   transform: skewX(-5deg);
+ }
+}
+
+@media (max-width: 420px) {
+ .sidebar li .tooltip{
+   display: none;
+ }
+}
