@@ -75,7 +75,7 @@ For more look in snapshots.<br />
 #### [Blogger Website](http://blogamu.epizy.com/?i=1) : View on desktop (Not Responsive in small media)
 - keep in mind this is free server where the site is hosted,have patience if it loads slowly. :)
 - website in no way near to fully responsive for small media devices
-- 
+
 ![ForTheBadge built-by-developers](https://forthebadge.com/images/badges/built-by-developers.svg)
 ![ForTheBadge built-by-developers](https://forthebadge.com/images/badges/for-you.svg)
 ![ForTheBadge built-by-developers](https://forthebadge.com/images/badges/powered-by-responsibility.svg)
@@ -88,13 +88,13 @@ For more look in snapshots.<br />
 	<a href="https://twitter.com/s_rhmaan"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png" alt="Twitter"/></a>
   </p>
 
-Website Developed by
-- Shuja ur Rahman 
- 📫Reach me: **shujaurrehman210@gmail.com**
- 👨‍💻check out my portfolio at:[shuja-on-web](https://shujaurrahman.github.io/shuja-on-web/)
+Website Developed by<br />
+- Shuja ur Rahman <br />
+ 📫Reach me: **shujaurrehman210@gmail.com**<br />
+ 👨‍💻check out my portfolio at:[shuja-on-web](https://shujaurrahman.github.io/shuja-on-web/)<br />
  
- -Mohd Faheem Ahmad
-  📫Reach me:**mohdfaheemahmad5@gmail.com**
+ -Mohd Faheem Ahmad<br />
+  📫Reach me:**mohdfaheemahmad5@gmail.com**<br />
 
 
 ![with-coffee](https://img.shields.io/badge/made%20with-%E2%98%95%EF%B8%8F%20coffee-yellow.svg)
