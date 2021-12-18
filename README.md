@@ -1,8 +1,7 @@
 
 ## 🟡 Idea Description:
 The main objective of the Online Blogging System is to showcase the details of Blogs, Idea, Content of a person. The purpose of the project is to build a website that gives people a platform to share what they feel. User can simply create a post through a post create button Which will take entry of the content with title and content will be published in the form of blog. The website will contain specific section for- creation of post, a login and sign-up section, a contact or query section that gives us feedback or review in a tabulated form through which we can Change or update anything on user request.
-The home section will be where all blogs will be displayed, the composed blog or post can also be deleted with delete button option at the bottom of composed blog by the user 
-from the my blogs section when the person is logged in.
+The home section will be where all blogs will be displayed, the composed blog or post can also be deleted with delete button or edited with edit button option available at the bottom of composed blog by the user from my blogs section when the person is logged in.
 <br /><br />
 
 ##### Admin panel:
