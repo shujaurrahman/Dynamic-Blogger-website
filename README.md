@@ -70,7 +70,6 @@ For more look in snapshots.<br />
 ![alt text](./images/13.png)
 ![alt text](./images/14.png)
 ![alt text](./images/15.png)
-![alt text](./images/16.png)
 
 
 ### Hosted Here:
