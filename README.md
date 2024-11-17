@@ -91,7 +91,7 @@ For more look in snapshots.<br />
 Website Developed by<br />
 - Shuja ur Rahman <br />
  📫Reach me: **shujaurrehman210@gmail.com**<br />
- 👨‍💻check out my portfolio at:[shuja-on-web](https://shujaurrahman.github.io/shuja-on-web/)<br />
+ 👨‍💻check out my portfolio at:[shujaurrahman.me](https://shujaurrahman.me/)<br />
  
  - Mohd Faheem Ahmad<br />
   📫Reach me:**mohdfaheemahmad5@gmail.com**<br />
