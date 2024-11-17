@@ -73,7 +73,7 @@ For more look in snapshots.<br />
 
 
 ### Hosted Here:
-#### [Blogger Website](http://blogamu.epizy.com/?i=1) : View on desktop (Not Responsive in small media)
+#### [Blogger Website](https://blogger.shujaurrahman.me/) : View on desktop (Not Responsive in small media)
 - keep in mind this is free server where the site is hosted,have patience if it loads slowly. :)
 - website in no way near to fully responsive for small media devices
 
